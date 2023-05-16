@@ -2,7 +2,8 @@
   var_dump($_POST);
 
   $paragraph = $_POST['paragraph'];
-  $censored = $_POST['censored'];
+  $word = $_POST['word'];
+  $censored = str_replace($word,'***',$paragraph,)
 ?>
 
 
@@ -16,7 +17,10 @@
 </head>
 <body>
 
-  <h1>prova</h1>
+  <h1>testo da censurare</h1>
+  <p><?php echo $paragraph ?></p>
+  <h1>testo da censurato</h1>
+  <p><?php echo $censored ?></p>
   
 </body>
 </html>

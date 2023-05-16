@@ -16,8 +16,8 @@
     <input type="text" class="form-control" id="paragraph" name="paragraph" >
   </div>
   <div class="mb-3">
-    <label for="censored" class="form-label">Parola da censurare</label>
-    <input type="text" class="form-control" id="censored">
+    <label for="word" class="form-label">Parola da censurare</label>
+    <input type="text" class="form-control" id="word" name="word">
   </div>
   
   <button type="submit" class="btn btn-primary">Submit</button>
